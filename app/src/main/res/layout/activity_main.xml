@@ -45,7 +45,9 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintLeft_toRightOf="@+id/imageView"
         android:layout_marginLeft="7dp"
-        android:layout_marginRight="16dp" />
+        android:layout_marginRight="16dp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintVertical_bias="0.0" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -61,7 +63,8 @@
         tools:layout_constraintLeft_creator="1"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="@+id/txtac"
-        android:layout_marginLeft="88dp" />
+        android:layout_marginLeft="88dp"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/hello"
@@ -170,10 +173,7 @@
         android:textColor="@color/colorAccent"
         android:textSize="18sp"
         android:textStyle="bold"
-        tools:layout_constraintBottom_creator="1"
-        app:layout_constraintBottom_toBottomOf="@+id/gridLayout"
-        tools:layout_constraintLeft_creator="1"
-        android:layout_marginBottom="16dp"
-        app:layout_constraintLeft_toLeftOf="@+id/txtac" />
+        tools:layout_editor_absoluteY="59dp"
+        tools:layout_editor_absoluteX="168dp" />
 
 </android.support.constraint.ConstraintLayout>
